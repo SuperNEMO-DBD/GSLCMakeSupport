@@ -1,4 +1,4 @@
-project(GSLCMakeSupport)
+project(GSLCMakeSupport NONE)
 if(NOT gsl_VERSION)
   message(FATAL_ERROR "NO gsl_VERSION VARIABLE set")
 endif()
